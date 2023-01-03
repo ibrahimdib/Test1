@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <th>Student Name</th>
+    </tr>
+{% for dt in response %}
+    <tr>
+    <td>
+        {{dt.Name}}
+    </td>
+    </tr>
+{% endfor %}
+</table>
+
+</body>
+</html>
